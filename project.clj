@@ -1,11 +1,11 @@
 (defproject maze "1.0.0-SNAPSHOT"
   :description "Amazing Dojo - a maze solving puzzle for the London Clojure Dojo."
-  :dependencies [[org.clojure/clojure "1.4.0"]
-                 [compojure "1.1.0"]
-                 [hiccup "1.0.0"]
-                 [ring/ring-jetty-adapter "1.1.1"]]
-  :plugins [[lein-swank "1.4.4"]
-            [lein-ring "0.7.1"]]
+  :dependencies [[org.clojure/clojure "1.8.0"]
+                 [compojure "1.6.2"]
+                 [hiccup "1.0.5"]
+                 [ring/ring-jetty-adapter "1.8.1"]]
+  :plugins [[lein-swank "1.4.5"]
+            [lein-ring "0.12.5"]]
   :ring {:handler maze.www/app})
 
 ;; This file is part of Amazing Dojo.
