@@ -1,5 +1,5 @@
 (ns maze.gen
-  (use [maze.util]))
+  (:use [maze.util]))
 
 (defn choose-from-c [c]
   (rand-nth (seq c)))

@@ -1,5 +1,5 @@
 (ns maze.draw
-  (use [maze.util]))
+  (:use [maze.util]))
 
 (defn- path-to-cells
   "Convert a sequence of direction keywords into a list of cells traversed by that path."

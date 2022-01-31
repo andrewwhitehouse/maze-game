@@ -1,6 +1,6 @@
 (ns maze.controller
-  (use [maze play gen util])
-  (import [java.util.concurrent Executors TimeUnit]))
+  (:use [maze play gen util])
+  (:import [java.util.concurrent Executors TimeUnit]))
 
 (def solvers (atom {}))
 

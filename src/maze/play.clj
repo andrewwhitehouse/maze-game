@@ -1,5 +1,5 @@
 (ns maze.play
-  (use [maze.util]))
+  (:use [maze.util]))
 
 (def path-preds {:n n-path?
                  :e e-path?
